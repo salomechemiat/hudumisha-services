@@ -1,0 +1,295 @@
+*{/*this removes the space that was initially there at the top of the image by default*/
+	margin:0;
+	padding:0;
+	}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg {
+    /* The image used */
+    background-image: url("home8.jpg");
+
+    /* Full height */
+    height: 75%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg {
+    /* The image used */
+    /*background-image: url("home8.jpg");
+
+    /* Full height */
+    margin-top: 100px;
+    height: 75%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  padding-top: 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+.topnav input[type=text] {
+    border: 1px solid #ccc; 
+
+  }*/
+  .jumbotron 
+  {
+      /*background-color: transparent;*/
+      color: black;
+      padding: 10px 25px;
+      padding-bottom: 5px;
+      font-size: 9px;
+      opacity: 0.6;
+      
+  }
+  .container .btn 
+  {
+  	
+    justify-content: center;
+    float: center;
+    
+  }
+  .container .form
+  {
+  	
+    justify-content: center;
+    float: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    
+  }
+
+
+  input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    opacity: 1;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+.bg1 {
+    /* The image used */
+    background-image: url("home8.jpg");
+
+    /* Full height */
+    height: 65%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+ .text h1
+ {
+ 	text-align: center;
+
+ }
+ #text1 h2
+ {
+ 	text-align: center;
+ 	font-size: 20px;
+ 	margin-top: 5.5em;
+    margin-bottom: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+ .hr
+ {
+ 	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+ }
+ * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 20.33%;
+    padding: 0px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 2.5em;
+    margin-right: auto;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#aboutus 
+{
+
+	 
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      }
+/*.parallax-item .scroll-arrow span {
+    display: none;
+    font-family: proxima-nova;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-align: center;
+}
+ .parallax-item .scroll-arrow {
+ 	color:black;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    z-index: 10;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.color-weight-light.scroll-arrow {
+    color: #000;*/
+
+.contact
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+    background-color: grey;
+
+}
+.footer
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.5em;
+    margin-top: 10em;
+    
+
+}
+.copyright
+{
+	font-size: 20px;
+	text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 150%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.icons
+{
+	list-style: none;
+	align-items: center;
+
+}
+
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 5px;
+}
+
