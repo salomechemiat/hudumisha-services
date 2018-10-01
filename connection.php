@@ -1,11 +1,17 @@
-<?php
-$con = mysqli_connect("localhost","root","","hudumisha_services");
+<?php  
+	/*Database credentials.*/
+	define("DB_SERVER","localhost");
+	define("DB_USERNAME","root");
+	define("DB_PASSWORD","");
+	define("DB_NAME","hudumisha");
 
-// Check connection
-if (mysqli_connect_errno())
-  {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }else{
-  	echo "This is it";
-  }
+	/*Attempt to connect to MYSQL Database*/
+	$mysqli = new mysqli("localhost", "root", "", "hudumisha");
+
+	//Check connection
+	if ($mysqli==false) {
+		die("ERROR: Could not connect. " . $mysqli->connect_error);
+	}
+
+	// echo "Connection Succesful. Host info: " . $mysqli->host_info;
 ?>
