@@ -1,12 +1,12 @@
-<?php  
+ <?php  
 	/*Database credentials.*/
 	define("DB_SERVER","localhost");
 	define("DB_USERNAME","root");
 	define("DB_PASSWORD","");
-	define("DB_NAME","hudumisha");
+	define("DB_NAME","cftdc");
 
 	/*Attempt to connect to MYSQL Database*/
-	$mysqli = new mysqli("localhost", "root", "", "hudumisha");
+	$mysqli = new mysqli("localhost", "root", "", "cftdc");
 
 	//Check connection
 	if ($mysqli==false) {

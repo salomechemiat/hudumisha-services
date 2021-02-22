@@ -1,0 +1,199 @@
+body{
+	/* width: 1px;
+    min-width: 100%;
+    *width: 100%; */
+	font-family: 'Raleway', sans-serif;
+}
+#header{
+	float: left;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+	font-size: 28.8px;
+	margin-bottom: 16px;
+	margin-left: 120px;
+	color: #926230;
+}
+#main{
+	float: right;
+	margin: 0 auto;
+	margin-top: 120px;
+	width: 528px;
+	height: 500px;
+	margin-right: 100px; 
+	/* background-color: #54BF79;
+	border: 1px solid; */
+}
+
+#form{
+	margin: 0 auto;
+	width: 402px;
+	height: 408px;
+	border: 0.3px solid #926230;
+	border-radius: 10px;
+	align-content: center;
+	/* background-color: #2980B9; */
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.input input{
+	margin-bottom: -1px;
+	width: 348px;
+	height: 3em;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	border: 0.5px solid #926230;
+	outline: none;
+
+}
+.firstname input{
+	padding-left: 50px;
+	width: 348px;
+	border: 0.5px solid #926230;
+	border-radius: 5px 5px 0px 0px;
+}
+.firstname input::placeholder{
+	/* padding-left: 50px; */
+}
+.firstname input:placeholder-shown{
+	
+}
+.first-name{
+    background-image: url(../images/icons/name.png);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+}
+.lastname{
+	padding-left: 50px;
+	background-image: url(../images/icons/name.png);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+}
+.email{
+	padding-left: 50px;
+	background-image: url(../images/icons/email.png);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+}
+.phone{
+	padding-left: 50px;
+	background-image: url(../images/icons/phone.png);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+}
+.house{
+	padding-left: 50px;
+	background-image: url(../images/icons/house.png);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+}
+.pass{
+	padding-left: 50px;
+	background-image: url(../images/icons/pass.png);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+}
+/* input[value^="Forgot?"] {
+	color:red;
+	padding-left: 10px;
+} */
+.button{
+	margin-bottom: -1px;
+	height: 3em;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	border: 0.5px solid #926230;
+	outline: none;
+	color: white;
+	background-color: #926230;
+	border: 1.0px solid #926230;
+	border-radius: 0px 0px 5px 5px;
+	width: 348px;
+	display: block;
+}
+.button:hover{
+	opacity: 0.7;
+	background-color: #926230;
+}
+
+#register{
+	margin: 0 auto;
+	/* margin-top: 0px; */
+	width: 398px;
+	height: 46px;
+	text-align: center;
+	/* background-color: #ECF0F1; */
+}
+#register p{
+	margin: 0 auto;
+}
+.login{
+	padding-top: 12px;
+}
+.login a:hover{
+	opacity:0.7;
+}
+.login a:link,
+.login a:visited{
+	color: #926230;	
+	text-decoration: none;
+	font-weight: 600;
+}
+
+/* LOGIN HTML */
+#login{
+	margin: 0 auto;
+	margin-top: -160px;
+	width: 398px;
+	height: 46px;
+	text-align: center;
+	/* background-color: #ECF0F1; */
+}
+.form{
+	margin-top: 80px;
+}
+.register{
+	padding-top: 12px;
+}
+.register a:link,
+.register a:hover,
+.register a:visited{
+	color: #926230;	
+	text-decoration: none;
+	font-weight: 600;
+}
+
+/* SERVICES PAGE */
+.gas-form{
+	margin-left: 50px;
+}
+.form-group{
+	width: 220px;
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+}
+.form-group-delivery{
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.form-group-select{
+	margin-top: 20px;
+	width: 220px;
+}
+.form-group-total{
+	color: #000000;
+	margin-left: 0px;
+	font-size: 25px;
+}
+.amount{
+	margin-left: 40px;
+}
+.order{
+	margin-right: 40px;
+	margin-left: -30px;
+}
+
